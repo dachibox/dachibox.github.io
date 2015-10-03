@@ -624,5 +624,6 @@ Waypoints
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-075s { animation-delay: 0.75s; -webkit-animation-delay: 0.75s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .wp3 { background: url('../img/SurfacePro3.png') no-repeat center center; background-position: -100px 10px; height: 100%; }
