@@ -623,6 +623,9 @@ Waypoints
 ========================================================================== */
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-035s { animation-delay: 0.35s; -webkit-animation-delay: 0.35s; }
+.delay-04s { animation-delay: 0.4s; -webkit-animation-delay: 0.4s; }
+.delay-045s { animation-delay: 0.45s; -webkit-animation-delay: 0.45s; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-075s { animation-delay: 0.75s; -webkit-animation-delay: 0.75s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
