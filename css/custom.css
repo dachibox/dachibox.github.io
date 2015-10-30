@@ -1,3 +1,8 @@
+#portfolio {
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+
 .portfolio-container .portfolio-item-col {
     padding: 0;
 }
