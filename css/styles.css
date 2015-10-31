@@ -760,6 +760,7 @@ Waypoints
 .delay-03s { animation-delay: 0.3s; -webkit-animation-delay: 0.3s; }
 .delay-04s { animation-delay: 0.4s; -webkit-animation-delay: 0.4s; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-06s { animation-delay: 0.6s; -webkit-animation-delay: 0.6s; }
 .delay-075s { animation-delay: 0.75s; -webkit-animation-delay: 0.75s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .wp3 { background: url('../img/SurfacePro3.png') no-repeat center center; background-position: -100px 10px; height: 100%; }
