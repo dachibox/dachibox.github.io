@@ -1,4 +1,6 @@
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
+@import url("prettyPhoto.css") screen;
+@import url("hoverex-all.css") screen;
  
 /* ==========================================================================
 HTML5 display definitions
@@ -32,6 +34,92 @@ html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgb
 html, button, input, select, textarea { font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif }
 /* * Addresses margins handled incorrectly in IE 6/7. */
 body { margin: 0; font-family: 'Varela Round', sans-serif; }
+
+/* ==========================================================================
+SOLID Theme CSS
+========================================================================== */
+
+.dmbutton:hover,
+.dmbutton:active,
+.dmbutton:focus{
+	color: #ffffff;
+	background-color: #222222;
+	border-color: #ffffff;
+}
+.dmbutton {
+	background:rgba(0, 0, 0, 0);
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding-top: 1.025rem;
+	padding-right: 2.25rem;
+	letter-spacing:0.85px;
+	padding-bottom: 1.0875rem;
+	padding-left: 2.25rem;
+	font-size: 1.55rem;
+	cursor: pointer;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 1.25rem;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+	-webkit-appearance: none;
+	font-weight: normal !important;
+}
+
+/* Portfolio Wrap */
+#portfoliowrap {
+	padding-top: 60px;
+	margin-bottom: 60px;
+	display: block;
+	text-align: center
+}
+
+#portfoliowrap h3 {
+	margin-bottom: 25px;
+}
+
+.portfolio {
+	padding:0 !important;
+	margin:0 !important;
+	display:block;
+}
+
+
+.portfolio-item .title:before {border-radius:0; display:none}
+.portfolio-item p {margin:0px 0 30px;}
+.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+
+
+.tpl6 h3
+{
+	color:#fff;
+	margin:0;
+	padding:0px 5px 0;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.tpl6 .dmbutton
+{
+	display:inline-block;
+	margin:30px 5px 20px 5px;
+	font-size:13px;
+}
+
+.tpl6 .bg
+{
+	height:100%;
+	width:100%;
+	background-color:#00b3fe;
+	background-color:rgba(0,179,254,.9);
+	text-align:center;
+}
+
 /* ==========================================================================
 XAMARIN CSS
 ========================================================================== */
@@ -92,6 +180,27 @@ Cayman Theme CSS
         -webkit-border-radius: 75px;
         -moz-border-radius: 75px;
         margin: 0px 0px 8px 0px;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .img {
+        width: 345px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .img {
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -494,6 +603,7 @@ p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
+.section-portofolio-padding { padding: 0px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
@@ -650,6 +760,7 @@ Waypoints
 .delay-03s { animation-delay: 0.3s; -webkit-animation-delay: 0.3s; }
 .delay-04s { animation-delay: 0.4s; -webkit-animation-delay: 0.4s; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-06s { animation-delay: 0.6s; -webkit-animation-delay: 0.6s; }
 .delay-075s { animation-delay: 0.75s; -webkit-animation-delay: 0.75s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .wp3 { background: url('../img/SurfacePro3.png') no-repeat center center; background-position: -100px 10px; height: 100%; }
