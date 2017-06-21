@@ -1,15 +1,14 @@
 # Site settings
-title: Clean Blog
+title: Dachi Gogotchuri
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
+email: dachi.gogotchuri@outlook.com
+copyright_name: Dachi Gogotchuri
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+url: "http://soydachi.com/m"
+twitter_username: dachibox
+github_username:  dachibox
+email_username:  dachi.gogotchuri@outlook.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
