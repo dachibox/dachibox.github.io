@@ -1,14 +1,14 @@
 # Site settings
 title: Dachi Gogotchuri
 header-img: img/post-bg-02.jpg
-email: dachi.gogotchuri@outlook.com
+email: hola@soydachi.com
 copyright_name: Dachi Gogotchuri
 description: "Mis pensamientos, sobre absolutamente cualquier cosa"
 baseurl: ""
 url: "http://soydachi.com"
 twitter_username: dachibox
 github_username:  dachibox
-email_username:  dachi.gogotchuri@outlook.com
+email_username:  hola@soydachi.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
