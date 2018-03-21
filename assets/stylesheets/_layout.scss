@@ -1,0 +1,60 @@
+/* Layout
+========================================================================== */
+
+/* Apply a natural box layout model to all elements, but allowing components to change */
+html { box-sizing: border-box; }
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+html {
+    font: $body-font;
+    font-weight: $regular;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @media #{$medium} {
+      font-size: 124%;
+    }
+}
+
+body {
+    background-color: $background;
+    color: $text-primary;
+}
+
+.container {
+    @extend %clearfix;
+    margin: 2rem auto;
+    max-width: $content-width;
+    width: 90%;
+
+    @media #{$medium} {
+      margin: 3rem auto;
+    }
+}
+
+header, footer {
+  .container { margin: 0 auto; }
+}
+
+
+/* Images
+========================================================================== */
+
+img:not(.pixel) {
+  display: block;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+/* Lists
+========================================================================== */
+
+ul, ol {
+  list-style: disc inside;
+  margin: 0 0 1.5rem 1.5em;
+  padding: 0;
+}

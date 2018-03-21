@@ -1,0 +1,79 @@
+/* Typography
+========================================================================== */
+
+h1, h2, h3, h4 {
+  font: $header-font;
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+
+  @media #{$medium} {
+    font-size: 2.4rem;
+  }
+}
+
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.2rem; }
+
+h4 {
+  font-size: .8rem;
+  letter-spacing: .0625rem;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+p {
+  color: $text-paragraphs;
+  font-style: normal;
+  margin: 0 0 1.5rem 0;
+}
+
+strong { font-weight: $bold; }
+em { font-style: italic; }
+
+sup {
+  line-height: 0;
+  vertical-align: super;
+  font-size: smaller;
+}
+
+/* Links
+========================================================================== */
+
+a {
+  color: $green-theme;
+  text-decoration: none;
+
+  &:hover { text-decoration: none; }
+}
+
+/* Separator
+========================================================================== */
+
+hr {
+  border: 0;
+  border-top: 1px solid $borders;
+  margin: 2rem auto;
+  width: 3rem;
+}
+
+/* Blockquote
+========================================================================== */
+
+blockquote {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  padding: 0 1.5rem;
+
+  p {
+    color: $text-secondary;
+    margin: 0;
+
+    &:before { content: '“'; }
+    &:after { content: '”'; }
+  }
+}

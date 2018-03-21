@@ -1,0 +1,16 @@
+---
+layout: default-wide
+title: Work
+---
+
+<ul class="work">
+  {% assign items = site.work | sort: 'order' %}
+  {% for item in items %}
+    <li class="work__item">
+      <a class="work__link" href="{{ item.url }}">
+        <div class="work__logo work__logo--{{ item.title | slugify }}"></div>
+        <h3 class="work__title">{{ item.title }}</h3>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

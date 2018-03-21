@@ -1,0 +1,38 @@
+/* Examples
+========================================================================== */
+
+.highlight {
+  background: $code-background;
+  border-radius: 3px;
+  border: 1px solid $borders;
+  margin-bottom: 1.5rem;
+}
+
+/* Code
+========================================================================== */
+
+code {
+  border-radius: 3px;
+  background: $code-background;
+  border: 1px solid $borders;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: .8rem;
+  padding: .15rem .3rem;
+}
+
+pre {
+  margin: 0;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+
+  > code {
+    background: transparent;
+    border: 0;
+    color: inherit;
+    font-size: .8rem;
+    padding: .8rem !important;
+
+    @media #{$medium} {
+      font-size: .7rem;
+    }
+  }
+}

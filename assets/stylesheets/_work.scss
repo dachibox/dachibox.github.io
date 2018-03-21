@@ -1,0 +1,147 @@
+/* Work
+========================================================================== */
+
+.work {
+  @extend %clearfix;
+  @include clean-list;
+}
+
+.work__item {
+  border-bottom: 1px solid $border-light;
+  width: 100%;
+
+  &:last-of-type { border-bottom: 0; }
+
+  @media #{$medium} {
+    border-right: 1px solid $border-light;
+    float: left;
+    width: 50%;
+  }
+
+  @media #{$medium} and (max-width: 64em) {
+    &:nth-child(2n+1):nth-last-child(-n+2),
+    &:nth-child(2n+1):nth-last-child(-n+2) ~ & {
+      border-bottom: 0;
+    }
+
+    &:nth-of-type(2n) { border-right: 0; }
+  }
+
+  @media #{$large} {
+    width: 33.333%;
+
+    &:nth-child(3n+1):nth-last-child(-n+3),
+    &:nth-child(3n+1):nth-last-child(-n+3) ~ & {
+      border-bottom: 0;
+      border-right: 1px solid $border-light;
+    }
+
+    &:nth-of-type(3n) { border-right: 0 !important; }
+  }
+}
+
+.work__link {
+  @include transition (background $duration $timing);
+  display: block;
+  padding: 2rem 0;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    background: $light-gray;
+    text-decoration: none;
+  }
+
+  @media #{$medium} {
+    padding: 3.5rem 0;
+  }
+}
+
+.work__title,
+.work__description {
+  margin: 0;
+}
+
+.work__title {
+  font-size: .8em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.work__description {
+  color: $gray;
+  font-size: .9rem;
+}
+
+/* Work Logos
+========================================================================== */
+
+.work__logo {
+  background-repeat: no-repeat;
+  height: 48px;
+  margin: 0 auto 1.2rem;
+  width: 48px;
+
+  &.work__logo--beehive { background-image: url("/assets/images/work/icons/beehive.svg"); }
+  &.work__logo--grid { background-image: url("/assets/images/work/icons/grid.svg"); }
+  &.work__logo--css-workshop { background-image: url("/assets/images/work/icons/css-workshop.svg"); }
+  &.work__logo--citypak,
+  &.work__logo--citypak-case-study { background-image: url("/assets/images/work/icons/citypak.svg"); }
+  &.work__logo--checklist { background-image: url("/assets/images/work/icons/checklist.svg"); }
+  &.work__logo--vision { background-image: url("/assets/images/work/icons/vision.svg"); }
+}
+
+/* Browser
+========================================================================== */
+
+.browser {
+  border-radius: 4px;
+  border: 1px solid $border-light;
+  margin-bottom: 1.5rem;
+  max-height: 25rem;
+  overflow: hidden;
+
+  img { margin: 0; }
+}
+
+.browser--mobile {
+  margin: 0 auto 1.5rem;
+  max-width: 20rem;
+  max-height: 30rem;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media #{$medium} {
+    float: left;
+    margin: 0;
+    width: 48%;
+
+    &:last-of-type { margin-left: 4%; }
+    &:only-of-type { margin-left: 0; }
+  }
+}
+
+.browser__header {
+  @extend %clearfix;
+  background: $border-light;
+  border-radius: 4px 4px 0 0;
+  padding: .6rem .5rem;
+}
+
+.spotlights {
+  @extend %clearfix;
+  @include clean-list;
+}
+
+.spotlights__item {
+  background: #ccc;
+  border-radius: 60%;
+  display: block;
+  float: left;
+  height: 10px;
+  margin-bottom: 0;
+  margin-right: .3rem;
+  width: 10px;
+}

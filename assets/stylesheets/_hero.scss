@@ -1,0 +1,32 @@
+.hero {
+  background: $text-secondary;
+  background-position: center;
+  position: relative;
+  height: 12em;
+
+  @media #{$medium} {
+    height: 18rem;
+  }
+
+  .container { margin: 0 auto; }
+}
+
+.hero__inner {
+  @include transform(translateY(-50%));
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.hero__title {
+  color: white;
+  margin-bottom: .2rem;
+
+  &:after { display: none; }
+}
+
+.hero__date {
+  color: white;
+  margin: 0;
+}

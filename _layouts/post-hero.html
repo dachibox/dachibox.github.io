@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {% include hero.html %}
+    {% include ga.html %}
+
+    <div class="container">
+      <article>
+        {{ content }}
+      </article>
+    </div>
+
+    {% include post-footer.html %}
+    {% include footer.html %}
+  </body>
+</html>

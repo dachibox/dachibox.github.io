@@ -1,0 +1,26 @@
+/* Footer
+========================================================================== */
+footer {
+    color: $text-secondary;
+    text-align: center;
+
+    .container { padding: 2rem 0; }
+}
+
+.footer-legend {
+    font-size: 1rem;
+    margin: 0;
+
+    @media #{$medium} {
+      font-size: .9rem;
+    }
+}
+
+.heart {
+    display: inline-block;
+    fill: $heart;
+    height: 14px;
+    margin: 0 .1rem;
+    visibility: middle;
+    width: 14px;
+}

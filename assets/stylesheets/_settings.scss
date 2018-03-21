@@ -1,0 +1,54 @@
+$regular: 400;
+$bold:    700;
+
+// Body Font
+$body-font: $regular 114%/1.5 "myriad-set-pro", sans-serif;
+
+// Header Font
+$header-font: $bold 114%/1.25 "myriad-set-pro", sans-serif;
+
+// Colors
+$background:      #FFF;
+$text-paragraphs: #4D4D4D;
+$text-primary:    #242424;
+$text-secondary:  #777;
+$borders:         #EEE;
+$code-background: #F8F8F8;
+$green-theme:     #32BE80;
+$heart:           #F746B4;
+$primary-color: #eb4242;
+$white:         #fff;
+$black:         #333;
+$light-gray:    #f8f8f8;
+$gray:          #aaa;
+$red:           #df7063;
+
+// Border Colors
+$border-light: #eee;
+$border-dark: #ddd;
+
+// Primary Button Color
+$primary-button:       $primary-color;
+$primary-button-hover: darken($primary-color, 5%);
+
+// Border Radius
+$border-radius: 4px;
+
+// Medium Screens
+$medium: "(min-width: 34em)";
+
+// Large Screens
+$large: "(min-width: 50em)";
+
+$content-width: 34rem;
+$content-width-wide: 50em;
+
+// Animations
+$duration: .2s;
+$timing: cubic-bezier(.645, .045, .355, 1);
+
+// Z-index
+$overlay-high:   9999;
+$overlay-medium: 9000;
+$overlay-low:    8000;
+
