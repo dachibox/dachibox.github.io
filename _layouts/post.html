@@ -3,6 +3,7 @@
   {% include head.html %}
   <body>
     {% include header.html %}
+    {% include ga.html %}
 
     <div class="container">
       <article>
@@ -16,6 +17,9 @@
     </div>
 
     {% include post-footer.html %}
+    <div class="container">
+      {% include disqus.html %}
+    </div>
     {% include footer.html %}
   </body>
 </html>
