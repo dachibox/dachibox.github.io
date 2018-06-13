@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {% include randomImageHero.html %}
+    {% include ga.html %}
+
+    <div class="container">
+      <article>
+        {{ content }}
+      </article>
+    </div>
+
+    {% include post-footer.html %}
+    <div class="container">
+      {% include disqus.html %}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
