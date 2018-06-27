@@ -7,10 +7,9 @@ cover:      https://picsum.photos/1500/?random
 permalink:  /blog/hola
 comments: true
 ---
+**Por fin!** he decido crear un sitio donde poder expresarme, compartir mis ambiciones, opiniones, debates y, por supuesto, mis proyectillos en los que ando trasteando 🤓. Me gustaría crear un huequecito en este universo llamado internet, donde pueda compartir mis inquietudes, poder recibir feedback y gracias a ello crecer.
 
 > Nota: Las imágenes las voy cargando **aleatoriamente** desde [piscum photos](https://picsum.photos), por si os interesa. Me ha molado mucho hacerlo de esta manera.
-
-**Por fin!** he decido crear un sitio donde poder expresarme, compartir mis ambiciones, opiniones, debates y, por supuesto, mis proyectillos en los que ando trasteando 🤓. Me gustaría crear un huequecito en este universo llamado internet, donde pueda compartir mis inquietudes, poder recibir feedback y gracias a ello crecer.
 
 ¿Qué podéis esperar de este blog tan aburrido? **Pues, ¡cualquier cosa!**, no voy a centrarme en un solo tema, ni va a ser solo de desarrollo o management. Quiero escribir todo lo que me pase por la cabeza y pueda expresarlo de la manera más adecuada, claro.
 
