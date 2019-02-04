@@ -1,7 +1,7 @@
 # Site settings
 name: Dachi Gogotchuri
 title: Dachi Gogotchuri
-url: https://soydachi.com
+url: https://soydachi.github.io
 description: "Developer"
 permalink: /blog/:title
 
